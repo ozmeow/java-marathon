@@ -8,13 +8,13 @@ public class Main {
         TaskManager manager = new TaskManager();
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("простой тодо - менеджер");
-        System.out.println("Доступные команды");
-        System.out.println("add <...> - добавить задачу");
-        System.out.println("list - показать все задачи");
-        System.out.println("done <id> - отметить задачу выполненной");
-        System.out.println("delete <id> - удалить задачу");
-        System.out.println("exit - выход");
+        System.out.println("простой ToDo - manager");
+        System.out.println("Доступные команды:");
+        System.out.println("1. add <...> - добавить задачу");
+        System.out.println("2. list - показать все задачи");
+        System.out.println("3. done <id> - отметить задачу выполненной");
+        System.out.println("4. delete <id> - удалить задачу");
+        System.out.println("5. exit - выход");
 
         while (true) {
             System.out.println("\nВведите команду: ");
